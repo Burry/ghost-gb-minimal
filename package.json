@@ -1,0 +1,24 @@
+{
+    "name": "gb minimal",
+    "description": "Custom Ghost theme for grantburry.com"
+    "version": "0.1",
+    "engines": {
+        "ghost": ">=0.9.0 <1.0.0"
+    },
+    "author": {
+        "name": "Grant Burry",
+        "email": "grant@burry.me",
+        "url": "https://grantburry.com"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme"
+    ]
+}
