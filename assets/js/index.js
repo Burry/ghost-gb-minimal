@@ -6,9 +6,14 @@
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
     $document.ready(function () {
-        // hide loading bar for MobileSafari
+        // iOS adjustments
         if( userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i)) {
+            // hide loading bar
             $(".pace").hide();
+            // add :hover style to all links
+            $("a").click(function() {
+                void(0);
+            });
         }
 
         var $postContent = $(".post-content");
