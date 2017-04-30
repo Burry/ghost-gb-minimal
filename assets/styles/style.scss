@@ -801,8 +801,13 @@ button {
 .post {
 	position: relative;
 	padding-bottom: 4rem;
+    padding-top: 4rem;
 	border-bottom: #eee 1px solid;
 	word-wrap: break-word;
+}
+
+.post:first-of-type {
+    padding-top: 0;
 }
 
 .post-title {
@@ -1194,9 +1199,6 @@ button {
 		font-size: 0.95em;
 	}
 	body {
-		&:not(.post-template) .post-title {
-			font-size: 3.2rem;
-		}
 		&.page-template .post-title {
 			font-size: 4.5rem;
 		}
@@ -1285,13 +1287,11 @@ button {
 		margin-left: 15px;
 		margin-right: 15px;
 		padding-bottom: 2rem;
+        padding-top: 0;
 		line-height: 1.65em;
 	}
 	.post:first-of-type {
 		margin-top: 0;
-	}
-	.post-date {
-		display: none;
 	}
 	.post-template .post-date, .page-template .post-date {
 		display: inline-block;
