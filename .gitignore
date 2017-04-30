@@ -3,5 +3,3 @@ assets/*
 !assets/fonts*
 !assets/js*
 !assets/css*
-!assets/logo.svg
-!assets/logo-xs.svg
