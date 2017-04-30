@@ -8,4 +8,4 @@ Desktop Screenshot
 
 Mobile Screenshot
 -------
-![Screenshot](Screenshot Mobile.png)
+![Screenshot](Screenshot_Mobile.png)
