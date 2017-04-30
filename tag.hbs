@@ -3,23 +3,19 @@
 
 {{!-- If we have a tag cover, display that - else blog cover - else nothing --}}
 <header class="main-header tag-head {{#if tag.image}}" style="background-image: url({{tag.image}}){{else}}{{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}{{/if}}">
-    <nav class="main-nav overlay clearfix">
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
-        {{#if @blog.navigation}}
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-        {{/if}}
-    </nav>
     <div class="vertical">
-        {{#tag}}
         <div class="main-header-content inner">
-            <h1 class="page-title">{{name}}</h1>
-            <h2 class="page-description">
+            <h1 class="page-title">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                {{#tag}}{{name}}
+            </h1>
+            <h4 class="page-description">
                 {{#if description}}
                     {{description}}
                 {{else}}
-                    A {{../pagination.total}}-post collection
+                    {{../pagination.total}} posts
                 {{/if}}
-            </h2>
+            </h4>
         </div>
         {{/tag}}
     </div>
