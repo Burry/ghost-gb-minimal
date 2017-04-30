@@ -1,7 +1,6 @@
 .DS_STORE
 assets/*
-!assets/fonts*
-!assets/js*
-!assets/styles*
-
-assets/styles/.DS_Store
+!assets/fonts/*
+!assets/js/*
+!assets/styles/*
+assets/js/analytics.js
