@@ -706,6 +706,13 @@ button {
 	display: none;
 }
 
+/* Contains spaced-out rows */
+.padded-rows {
+    div div {
+        margin-bottom: 2em;
+    }
+}
+
 /* ==========================================================================
 	 General - The main styles for the the theme
 ========================================================================== */
@@ -903,16 +910,6 @@ button {
 	display: block;
 	font-size: 1.4rem;
 	line-height: 1.5em;
-}
-
-// Custom card style
-.project-cards {
-    .card {
-        border-radius: 0;
-        min-height: 116px;
-        padding: 1rem;
-        margin: 1.5rem auto;
-    }
 }
 
 /* ==========================================================================
@@ -1198,11 +1195,6 @@ button {
 	.post {
 		font-size: 0.95em;
 	}
-    .project-cards {
-        .card {
-            min-height: 146px;
-        }
-    }
 	body {
 		&:not(.post-template) .post-title {
 			font-size: 3.2rem;
@@ -1259,21 +1251,6 @@ button {
 		border-top: rgba(0, 0, 100, 0.06) 1px solid;
 		border-left: none;
 	}
-}
-
-/* ==========================================================================
-	 Media Queries - Smaller than 767px
-========================================================================== */
-
-@media only screen and (max-width: 767px) {
-    .project-cards {
-        .card {
-            min-height: 0px;
-            border: none;
-            margin-top: 0;
-            padding: 0;
-        }
-    }
 }
 
 /* ==========================================================================
