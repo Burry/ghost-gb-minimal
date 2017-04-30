@@ -4,3 +4,4 @@ assets/*
 !assets/js*
 !assets/css*
 !assets/logo.svg
+!assets/logo-xs.svg
