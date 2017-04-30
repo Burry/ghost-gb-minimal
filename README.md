@@ -4,8 +4,8 @@ This is a simple theme for a Ghost blog that I made for my personal site. It's d
 
 Desktop Screenshot
 -------
-![Screenshot](Screenshot.png)
+![Desktop Screenshot](Screenshot.png)
 
 Mobile Screenshot
 -------
-![Screenshot](Screenshot_Mobile.png)
+![Mobile Screenshot](Screenshot_Mobile.png)
