@@ -15,7 +15,7 @@
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic" />
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.min.css"}}" />
 
 
     {{!-- Ghost outputs important style and meta data with this tag --}}
@@ -23,14 +23,34 @@
 </head>
 <body class="{{body_class}}">
 
+    {{!-- Mobile navigation --}}
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <div class="container-fluid">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mobileNavbarNav" aria-controls="mobileNavbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            {{#if @blog.logo}}<a class="logo navbar-brand" href="{{@blog.url}}" alt="Home"></a>{{/if}}
+            <div class="collapse navbar-collapse" id="mobileNavbarNav">
+                <ul class="navbar-nav">
+                    {{navigation}}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
-                {{!-- The blog navigation links --}}
-                {{navigation}}
+            <div class="col-main-nav col-sm-3 col-md-2">
+                {{!-- Main navigation --}}
+                {{#if @blog.logo}}<a class="logo" href="{{@blog.url}}" alt="Home"></a>{{/if}}
+                <div class="main-nav">
+                    <ul>
+                        {{navigation}}
+                    </ul>
+                </div>
             </div>
 
-            <div class="col-sm-10">
+            <div class="col-12 col-sm-9 col-md-10">
                 {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
                 {{{body}}}
                 <footer class="site-footer">

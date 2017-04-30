@@ -1,17 +1,12 @@
-<nav>
-    {{#if @blog.logo}}<a class="logo" href="{{@blog.url}}" alt="Home"></a>{{/if}}
-    <ul>
-        {{#foreach navigation}}
-            <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
-        {{/foreach}}
-        {{#if @labs.subscribers}}
-            <li>
-                <a href="{{@blog.url}}subscribe/">RSS Feed</a>
-            </li>
-        {{else}}
-            <li>
-                <a href="{{@blog.url}}rss/">RSS Feed</a>
-            </li>
-        {{/if}}
-    </ul>
-</nav>
+{{#foreach navigation}}
+    <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
+{{/foreach}}
+{{#if @labs.subscribers}}
+    <li>
+        <a href="{{@blog.url}}subscribe/">RSS Feed</a>
+    </li>
+{{else}}
+    <li>
+        <a href="{{@blog.url}}rss/">RSS Feed</a>
+    </li>
+{{/if}}
