@@ -3,3 +3,5 @@ assets/*
 !assets/fonts*
 !assets/js*
 !assets/styles*
+
+assets/styles/.DS_Store
