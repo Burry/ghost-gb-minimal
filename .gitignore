@@ -1,5 +1,5 @@
 .DS_STORE
-#assets/*
-#!assets/fonts*
-#!assets/js*
-#!assets/styles*
+assets/*
+!assets/fonts*
+!assets/js*
+!assets/styles*
