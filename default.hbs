@@ -59,18 +59,18 @@
     </div>
 
     {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="{{asset "js/jquery-3.2.1.min.js"}}"></script>
+    {{!-- Fitvids makes video embeds responsive and awesome --}}
+    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     {{!-- Bootstrap --}}
     <script type="text/javascript"src="{{asset "js/bootstrap.min.js"}}"></script>
     {{!-- Ghost outputs important scripts and data with this tag --}}
     {{ghost_foot}}
-    {{!-- Fitvids makes video embeds responsive and awesome --}}
-    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
-    {{!-- The main JavaScript file for Casper --}}
-    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
     {{!-- Slick AJAX link loading --}}
     <script type="text/javascript"src="{{asset "js/pace.min.js"}}"></script>
     {{!-- Google Analytics --}}
     <script type="text/javascript"src="{{asset "js/analytics.js"}}"></script>
+    {{!-- The main JavaScript file for Casper --}}
+    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 </body>
 </html>

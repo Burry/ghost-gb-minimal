@@ -706,11 +706,9 @@ button {
 	display: none;
 }
 
-/* Contains spaced-out rows */
-.padded-rows {
-    div div {
-        margin-bottom: 2em;
-    }
+/* Container for spaced-out rows */
+.padded-rows > div > div {
+    margin-bottom: 2em;
 }
 
 /* ==========================================================================
