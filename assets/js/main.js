@@ -10,15 +10,16 @@
         $clamp(element, {clamp: 3});
     });
 
+    // add :hover style to all links
+    $("a").click(function() {
+        return true;
+    });
+
     $document.ready(function () {
         // iOS adjustments
         if( userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i)) {
             // hide loading bar
             $(".pace").hide();
-            // add :hover style to all links
-            $("a").click(function() {
-                void(0);
-            });
         }
 
         var $postContent = $(".post-content");
