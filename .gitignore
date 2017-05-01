@@ -3,3 +3,4 @@ assets/*
 !assets/fonts/*
 !assets/js/*
 !assets/styles/*
+robots.txt
