@@ -759,6 +759,7 @@ button {
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
+    cursor: hover;
 	&.navbar-brand {
 		margin-right: 1rem;
 		width: 48px;
@@ -776,7 +777,7 @@ button {
 }
 
 .logo {
-	&:active, &:hover, &:focus {
+	&:active, &:hover {
 		background-color: #f00;
 	}
 }

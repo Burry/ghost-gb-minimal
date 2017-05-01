@@ -11,9 +11,9 @@
     });
 
     // add :hover style to all links
-    $("a").click(function() {
-        return true;
-    });
+    // $("a").click(function() {
+    //     return true;
+    // });
 
     $document.ready(function () {
         // iOS adjustments

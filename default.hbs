@@ -28,7 +28,7 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mobileNavbarNav" aria-controls="mobileNavbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                {{#if @blog.logo}}<a class="logo navbar-brand" href="{{@blog.url}}" alt="Home"></a>{{/if}}
+                {{#if @blog.logo}}<a class="logo navbar-brand" href="{{@blog.url}}" alt="Home" onclick=""></a>{{/if}}
                 <div class="collapse navbar-collapse" id="mobileNavbarNav">
                     <ul class="navbar-nav">
                         {{navigation}}
@@ -42,7 +42,7 @@
         <div class="row">
             <div class="col-main-nav col-sm-3 col-md-2">
                 {{!-- Main navigation --}}
-                {{#if @blog.logo}}<a class="logo" href="{{@blog.url}}" alt="Home"></a>{{/if}}
+                {{#if @blog.logo}}<a class="logo" href="{{@blog.url}}" alt="Home" onclick=""></a>{{/if}}
                 <div class="main-nav">
                     <ul>
                         {{navigation}}
