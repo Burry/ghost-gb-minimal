@@ -66,11 +66,13 @@
     <script type="text/javascript"src="{{asset "js/bootstrap.min.js"}}"></script>
     {{!-- Ghost outputs important scripts and data with this tag --}}
     {{ghost_foot}}
+    {{!-- Cross-browser text truncation handling --}}
+    <script type="text/javascript"src="{{asset "js/clamp.min.js"}}"></script>
     {{!-- Slick AJAX link loading --}}
     <script type="text/javascript"src="{{asset "js/pace.min.js"}}"></script>
     {{!-- Google Analytics --}}
     <script type="text/javascript"src="{{asset "js/analytics.js"}}"></script>
-    {{!-- The main JavaScript file for Casper --}}
+    {{!-- The main JavaScript file for gb minimal --}}
     <script type="text/javascript" src="{{asset "js/main.js"}}"></script>
 </body>
 </html>

@@ -16,6 +16,10 @@
             });
         }
 
+        var postExcerpts = $(".post-excerpt p");
+
+        $clamp(postExcerpts, {clamp: 3});
+
         var $postContent = $(".post-content");
         $postContent.fitVids();
     });
