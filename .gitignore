@@ -3,4 +3,3 @@ assets/*
 !assets/fonts/*
 !assets/js/*
 !assets/styles/*
-assets/js/analytics.js
