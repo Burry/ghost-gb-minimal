@@ -759,7 +759,7 @@ button {
 
 .logo {
 	border: solid 1px #f00;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     background-position: center center;
 	user-select: none;
 	-moz-user-select: none;
@@ -1436,12 +1436,12 @@ button {
 	}
 }
 
-@media only screen and (max-width: 575px) and (-webkit-min-device-pixel-ratio : 3)  {
-        .navbar-brand.logo {
-            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAApCAYAAABju+QIAAAABGdBTUEAALGPC/xhBQAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAATxJREFUaAXtmAEKgzAMRePw/ld2CpoIPqSZjTr4IizEGrOX35o62MuOyWw+z4/BbD7rjk9d6P+NPL429QkEM5QKxFFIKY4iDEEJFm4JiqMIQ1CChVuC4ijCGFv6ghheY2X7juqcpRSoc/Qp1BfADV1d2b6jOsc1HykFqiwoggIEwCWlAJRYaOGiZRdCirH5eiySN+UjpWxF2/2eK2UdmG2udvGXL0bwDWA/Im9X5yOlQE0EBaA0TZ+KKQC5NLuq85FSoBTnSunxGoWH/uy6KR8pBSokKIICBMAlpQCUWGh77ivgQZZdJKvzoRxXn5QCcMYr+wiId3BlG63qfA4JgkNKERQgAK5YaOFiiys7PVpiPj1G0wcqcFkpHjP7yvUb32dIKVATQREUIAAuKQWg9FtoH9yrwP+65JJSAN8XeQQkYoaMEh0AAAAASUVORK5CYII=');
-            background-size: 34.5px 20.5px;
-        }
-}
+// @media only screen and (max-width: 575px) and (-webkit-min-device-pixel-ratio : 3)  {
+//         .navbar-brand.logo {
+//             background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAApCAYAAABju+QIAAAABGdBTUEAALGPC/xhBQAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAATxJREFUaAXtmAEKgzAMRePw/ld2CpoIPqSZjTr4IizEGrOX35o62MuOyWw+z4/BbD7rjk9d6P+NPL429QkEM5QKxFFIKY4iDEEJFm4JiqMIQ1CChVuC4ijCGFv6ghheY2X7juqcpRSoc/Qp1BfADV1d2b6jOsc1HykFqiwoggIEwCWlAJRYaOGiZRdCirH5eiySN+UjpWxF2/2eK2UdmG2udvGXL0bwDWA/Im9X5yOlQE0EBaA0TZ+KKQC5NLuq85FSoBTnSunxGoWH/uy6KR8pBSokKIICBMAlpQCUWGh77ivgQZZdJKvzoRxXn5QCcMYr+wiId3BlG63qfA4JgkNKERQgAK5YaOFiiys7PVpiPj1G0wcqcFkpHjP7yvUb32dIKVATQREUIAAuKQWg9FtoH9yrwP+65JJSAN8XeQQkYoaMEh0AAAAASUVORK5CYII=');
+//             background-size: 34.5px 20.5px;
+//         }
+// }
 
 /* ==========================================================================
 	 Animations
