@@ -735,8 +735,11 @@ button {
 .navbar-toggler {
 	margin-right: 15px;
 	border: none;
-    outline: none;
+    outline: none !important;
 	padding: 16px 15px;
+    &:focus {
+        outline: none !important;
+    }
 }
 
 .navbar-toggler-icon {
