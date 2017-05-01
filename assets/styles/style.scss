@@ -773,11 +773,14 @@ button {
 	}
 }
 
-.col-main-nav .logo {
-	width: 98px;
-	height: 98px;
-	@include background-svg($logo);
-	display: block;
+.col-main-nav {
+    position: fixed;
+    .logo {
+    	width: 98px;
+    	height: 98px;
+    	@include background-svg($logo);
+    	display: block;
+    }
 }
 
 .logo {
@@ -787,6 +790,8 @@ button {
 }
 
 .main-nav {
+    position: fixed;
+    margin-top: 77px;
     white-space: nowrap;
 	li {
 		margin: 0;
