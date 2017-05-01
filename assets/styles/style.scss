@@ -774,8 +774,8 @@ button {
 }
 
 .col-main-nav {
-    position: fixed;
     .logo {
+        position: fixed;
     	width: 98px;
     	height: 98px;
     	@include background-svg($logo);
