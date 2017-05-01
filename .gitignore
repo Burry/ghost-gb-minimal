@@ -1,8 +1,6 @@
 .DS_STORE
 assets/*
 !assets/fonts/*
-!assets/js/bootstrap.min.js
-!assets/js/index.js
-!assets/js/jquery.fitvids.js
-!assets/js/pace.min.js
+!assets/js/*
 !assets/styles/*
+assets/js/analytics.js
