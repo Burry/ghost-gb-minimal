@@ -707,11 +707,11 @@ button {
 }
 
 /* Container for spaced-out rows */
-.padded-rows > div > div {
+.padded-rows > .row > div {
     margin-bottom: 2em;
 }
 
-.padded-rows:last-of-type > div > div:last-of-type {
+.padded-rows > .row:last-of-type > div:last-of-type {
     margin-bottom: 0;
 }
 
