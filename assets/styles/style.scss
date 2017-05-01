@@ -1055,8 +1055,8 @@ button {
 
 .page-number {
 	display: inline-block;
-	padding: 2px 0;
 	min-width: 100px;
+    line-height: 1.5em;
 }
 
 .newer-posts {
@@ -1163,7 +1163,7 @@ button {
 	font-size: 1.3rem;
     margin-bottom: 3.2em;
     text-transform: uppercase;
-	line-height: 1.75em;
+	line-height: 1.5em;
 	color: #ccc;
 	a {
 		color: #ccc;
@@ -1351,7 +1351,7 @@ button {
 		margin: 0 15px 1.75em 15px;
 	}
 	.post-template .site-footer, .page-template .site-footer {
-		margin: 1.75em 1em 2em 1em;
+		margin: 1.75em 15px 2em 15px;
 	}
 	.post-content img {
 		padding: 0;
