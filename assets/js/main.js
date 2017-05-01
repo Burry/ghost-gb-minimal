@@ -5,11 +5,6 @@
     var $document = $(document);
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
-    // truncate post excerpts
-    $('.post-excerpt p').each(function(index, element) {
-        $clamp(element, {clamp: 3});
-    });
-
     // add :hover style to all links
     // $("a").click(function() {
     //     return true;

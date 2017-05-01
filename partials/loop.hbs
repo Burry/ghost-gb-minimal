@@ -19,5 +19,12 @@
 </article>
 {{/foreach}}
 
+<script>
+    // truncate post excerpts
+    $('.post-excerpt p').each(function(index, element) {
+        $clamp(element, {clamp: 3, useNativeClamp: false});
+    });
+</script>
+
 {{!-- Previous/next page links - displayed on every page --}}
 {{pagination}}
