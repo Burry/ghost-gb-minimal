@@ -10,6 +10,11 @@
     //     return true;
     // });
 
+    // truncate post excerpts
+    $('.post-excerpt p').each(function(index, element) {
+        $clamp(element, {clamp: 3, useNativeClamp: false});
+    });
+
     $document.ready(function () {
         // iOS adjustments
         if( userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i)) {
