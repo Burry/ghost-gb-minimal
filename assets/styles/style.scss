@@ -711,6 +711,10 @@ button {
     margin-bottom: 2em;
 }
 
+.padded-rows > div > div:last-of-type {
+    margin-bottom: 0;
+}
+
 /* ==========================================================================
 	 General - The main styles for the the theme
 ========================================================================== */
@@ -1157,6 +1161,7 @@ button {
 .site-footer {
 	position: relative;
 	font-size: 1.3rem;
+    margin-bottom: 3.2em;
     text-transform: uppercase;
 	line-height: 1.75em;
 	color: #ccc;
@@ -1343,8 +1348,7 @@ button {
 		}
 	}
 	.site-footer {
-		margin-left: 15px;
-		margin-top: 0;
+		margin: 0 1em 1.75em 1em;
 	}
 	.post-template .site-footer, .page-template .site-footer {
 		margin-left: 30px;
