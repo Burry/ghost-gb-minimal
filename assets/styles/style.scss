@@ -1304,7 +1304,7 @@ button {
 		display: inline-block;
 	}
 	hr {
-		margin: 1.75em 1em;
+		margin: 1.75em 0;
 	}
 	p, ul, ol, dl {
 		font-size: 0.95em;
@@ -1351,7 +1351,7 @@ button {
 		margin: 0 1em 1.75em 1em;
 	}
 	.post-template .site-footer, .page-template .site-footer {
-		margin-left: 30px;
+		margin: 1.75em 1em;
 	}
 	.post-content img {
 		padding: 0;
