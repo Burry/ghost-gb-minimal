@@ -711,7 +711,7 @@ button {
     margin-bottom: 2em;
 }
 
-.padded-rows > div > div:last-of-type {
+.padded-rows:last-of-type > div > div:last-of-type {
     margin-bottom: 0;
 }
 
