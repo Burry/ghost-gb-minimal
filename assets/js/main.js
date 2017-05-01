@@ -1,4 +1,4 @@
-/* globals jQuery, document */
+// globals jQuery, document
 (function ($, undefined) {
     "use strict";
 
@@ -16,12 +16,13 @@
             });
         }
 
-        var postExcerpts = $(".post-excerpt p");
-
-        $clamp(postExcerpts, {clamp: 3});
-
         var $postContent = $(".post-content");
         $postContent.fitVids();
+
+        // truncate post excerpts
+        $('.post-excerpt p').each(function(index, element) {
+            $clamp(element, {clamp: 3, animated: true});
+        });
     });
 
 })(jQuery);
